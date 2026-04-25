@@ -1,4 +1,42 @@
-.login-box {
-    background-color: #e7e1f6;
-    height: 100vh;
+.SpAi-logo {
+  height: 3rem; /* 48px */
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 480px) {
+  .AppBarContainer {
+    flex-direction: column;
+    height: auto;
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+
+  .welcome-content-body {
+    flex-direction: column; /* stack */
+    text-align: center;
+  }
+
+  .manworkonlaptop {
+    width: 15rem;
+  }
+
+  .Sp-logo {
+    width: 9rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .AppBarContainer {
+    padding: 0 1rem;
+  }
+
+  .manworkonlaptop {
+    width: 18rem;
+  }
+
+  .Sp-logo {
+    width: 10rem;
+  }
 }

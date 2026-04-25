@@ -1,0 +1,77 @@
+
+.welcome-container {
+  min-height: 100vh;
+}
+
+.AppBarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  height: 3.75rem; /* 60px */
+  padding: 0 1.25rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.SpAi-logo {
+  height: 3rem; /* 48px */
+  width: auto;
+  margin-top: 0.5rem;
+}
+
+.manworkonlaptop {
+  width: 25rem;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.welcome-content-body {
+  background-color: #EAE8FE;
+  min-height: 100vh;
+  padding-top: 3.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 2rem;
+}
+
+.about_sw {
+  font-family: Times New Roman;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 20%;
+  color: #333;
+  left: 7%;
+  width: 46%;
+}
+
+.information-section{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.features-list{
+  position: relative;
+  left: 19%;
+  top: -38px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
