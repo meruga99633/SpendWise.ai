@@ -1,14 +1,16 @@
 .login-container {
-   outline-style: solid;
-   width: 459px;
-   height: 504px;
-   margin: 10px 0px 0px 84px;
-   border-radius: 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin-top: -40px
 }
 
 .Sp-logo {
-    height: 48px;
-    width: 194px;
-    object-fit: contain;
+  width: 12rem; /* 192px */
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
 }
 
